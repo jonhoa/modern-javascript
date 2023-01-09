@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/jonhoa/modern-javascript#readme",
   "dependencies": {
+    "length.js": "^1.1.1",
     "moment": "^2.29.4"
   },
   "devDependencies": {

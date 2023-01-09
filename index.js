@@ -1,7 +1,8 @@
 var moment = require('moment');
-var a = moment().format();
+var a = moment().format('LLLL');
 console.log(a);
-
+console.log("Another test, will it pop up in browser without webpack?");
+console.log("appears on browser after writting ./node_modules/.bin/webpack ./index.js --mode=development");
 
 console.log("Index js heloooo");
 

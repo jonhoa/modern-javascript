@@ -15,7 +15,7 @@
   \******************/
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("var moment = __webpack_require__(/*! moment */ \"./node_modules/moment/moment.js\");\nvar a = moment().format('LLLL');\nconsole.log(a);\nconsole.log(\"Another test, will it pop up in browser without webpack?\");\n\nconsole.log(\"Index js heloooo\");\n\nvar i = 0;\nwhile (i < 10) {\n  console.log(i);\n  i ++;\n}\n\n\n//# sourceURL=webpack://modern-javascript/./index.js?");
+eval("var moment = __webpack_require__(/*! moment */ \"./node_modules/moment/moment.js\");\nvar a = moment().format('LLLL');\nconsole.log(a);\nconsole.log(\"Another test, will it pop up in browser without webpack?\");\nconsole.log(\"appears on browser after writting ./node_modules/.bin/webpack ./index.js --mode=development\");\n\nconsole.log(\"Index js heloooo\");\n\nvar i = 0;\nwhile (i < 10) {\n  console.log(i);\n  i ++;\n}\n\n\n//# sourceURL=webpack://modern-javascript/./index.js?");
 
 /***/ }),
 

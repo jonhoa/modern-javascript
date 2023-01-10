@@ -9,7 +9,7 @@ console.log("appears on browser after writting ./node_modules/.bin/webpack ./ind
 
 console.log("Index js heloooo");
 
-console.log("fibonacci sequence test with ES2015")
+console.log("fibonacci sequence test with ES2015");
 var fibonacci = {
   [Symbol.iterator]: function*() {
     var pre = 0, cur = 1;
@@ -20,7 +20,7 @@ var fibonacci = {
       yield cur;
     }
   }
-}
+};
 
 for (var n of fibonacci) {
   // truncate the sequence at 1000
@@ -28,4 +28,15 @@ for (var n of fibonacci) {
     break;
   console.log(n);
 }
-console.log("test autosave")
+console.log("test autosave");
+console.log("fibo");
+
+var headerTag = document.querySelector('H1');
+var lists = document.querySelector('ul');
+var listsLi = document.querySelector('li');
+
+headerTag.innerHTML = "New header";
+lists.style.fontSize = "25px";
+lists.style.color = "green";
+
+console.log(listsLi);
